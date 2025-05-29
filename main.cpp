@@ -10,6 +10,14 @@ int main()
 
 	sort(arr.begin(),arr.end());
 
+
+	for (int num : arr)
+	{
+
+		cout << num<< endl;
+
+	}
+
 	return 0;
 
 }
